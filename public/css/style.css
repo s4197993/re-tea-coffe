@@ -120,9 +120,14 @@ header nav a:hover {
     padding-top: 1rem;
 }
 #btn-back {
+    #btn-back {
+    display: block;         
+    margin: 2rem auto;      
     background: #1b1f6b; color: #fff; border: none;
     padding: .5rem 1.5rem; border-radius: 6px;
     text-align: center;
+    cursor: pointer;       
+}
 }
 
 footer { text-align: center; padding: 1rem; }
